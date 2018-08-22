@@ -1,0 +1,40 @@
+{
+  "name": "ether/voucher",
+  "description": " Purchasable Coupons & Gift Vouchers for Craft Commerce ",
+  "type": "craft-plugin",
+  "version": "1.0.0-alpha.1",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "voucher",
+    "coupon",
+    "gift-card"
+  ],
+  "support": {
+    "docs": "https://github.com/ethercreative/voucher/blob/master/README.md",
+    "issues": "https://github.com/ethercreative/voucher/issues"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Ether Creative",
+      "homepage": "https://ethercreative.co.uk"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "^3.0.0-RC17"
+  },
+  "autoload": {
+    "psr-4": {
+      "ether\\voucher\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Voucher",
+    "handle": "voucher",
+    "changelogUrl": "https://raw.githubusercontent.com/ethercreative/voucher/master/CHANGELOG.md",
+    "class": "ether\\voucher\\Voucher"
+  }
+}
